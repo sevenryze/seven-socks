@@ -1,0 +1,24 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "npm start",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/index.js",
+      "args": ["start"],
+      "cwd": "${workspaceFolder}/test-app",
+      "sourceMaps": true,
+      "autoAttachChildProcesses": true,
+      "smartStep": true,
+      "console": "integratedTerminal",
+      "outputCapture": "std", // 解决显示到process.stdout.write的内容不显示的问题
+      "env": {
+        "DEBUG": "towerflow:*"
+      }
+    }
+  ]
+}

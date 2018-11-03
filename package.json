@@ -1,0 +1,30 @@
+{
+  "name": "tiny-socks",
+  "bin": {
+    "tiny-socks": "dist/bin/index.js"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/src/index.js",
+  "files": [
+    "dist/",
+    "typings/"
+  ],
+  "scripts": {
+    "start": "towerflow start",
+    "production": "towerflow production",
+    "test": "towerflow test --env=jsdom",
+    "generate-config": "towerflow assistant --generate-config",
+    "remove-config": "towerflow assistant --remove-config"
+  },
+  "towerflow": {
+    "type": "node-app"
+  },
+  "devDependencies": {
+    "towerflow": "^1.3.5"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.2",
+    "ip": "^1.1.5"
+  }
+}
