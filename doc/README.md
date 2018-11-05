@@ -7,6 +7,7 @@
 <!-- code_chunk_output -->
 
 * [目录](#目录)
+* [前期准备](#前期准备)
 * [整体设计](#整体设计)
 * [socks client 设计](#socks-client-设计)
 	* [握手阶段](#握手阶段)
@@ -17,6 +18,10 @@
 <!-- /code_chunk_output -->
 
 <!-- prettier-ignore-end -->
+
+# 前期准备
+
+参见协议翻译和常用代理类型介绍
 
 # 整体设计
 
