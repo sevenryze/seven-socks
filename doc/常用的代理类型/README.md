@@ -47,6 +47,7 @@
 	* [抗识别](#抗识别)
 	* [部署难度](#部署难度)
 	* [功能](#功能)
+* [参考](#参考)
 
 <!-- /code_chunk_output -->
 
@@ -723,3 +724,7 @@ shadowsocks 目前还存在一些功能上的缺陷：
 1. shadowsocks 没有考虑用户鉴别，使得服务端 ACL 或者流量统计等功能无法实现，主流的 workaround 是通过不同的端口号去识别不同的用户，但这极其浪费资源且很不优雅。
 
 1. 部分 ISP 对于非 HTTP 和 TLS 的未知流量，会进行降速限制，这个可以通过配置 obfs 解决。
+
+# 参考
+
+https://github.com/Pines-Cheng/blog/issues/28
