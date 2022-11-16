@@ -21,7 +21,7 @@
     "type": "node-app"
   },
   "devDependencies": {
-    "towerflow": "^1.3.6"
+    "towerflow": "^1.3.28"
   },
   "dependencies": {
     "@types/debug": "0.0.31",
